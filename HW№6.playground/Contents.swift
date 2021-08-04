@@ -61,8 +61,9 @@ someStudent.enqueue(element: .init(name: "Anrew",
                                    satScore: 274))
 
 someStudent.printMyQueue()
-someStudent.count
-someStudent.front
+print(someStudent.count)
+print(someStudent.front)
 
 let entrant = someStudent.myFilter (predicate: {$0.satScore >= 270})
 print(entrant)
+
